@@ -1,0 +1,87 @@
+:root{
+  font-size: 65.5%
+}
+body{
+  background-color: rgba(0, 0, 0, 0.945);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+  margin: auto;
+  margin-top: 10rem;
+  width: 40rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 5px 20px 30px 5px rgb(0, 0, 0);
+  border-radius: 15px;
+
+  
+}
+
+.cronometro{
+  color: white;
+  font-size: 5rem; 
+}
+
+.botoes{
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.botao_iniciar, .botao_pausar, .botao_zerar{
+  margin: 0.5rem;
+  width: 8rem;
+  padding: .6rem;
+  border-radius: .7rem;
+  border: none;
+}
+
+.botao_iniciar{
+  color: black;
+  background-color: #0fce1f;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: .7rem;
+}
+
+.botao_iniciar:hover{
+  background-color: #058b10;
+
+}
+
+
+.botao_pausar{
+  color: black;
+  background-color: #097ddb;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: .7rem;
+}
+
+.botao_pausar:hover{
+  background-color: #055392;
+
+}
+
+.botao_zerar{
+  color: black;
+  background-color: #d40023;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: .7rem;
+}
+
+.botao_zerar:hover{
+  background-color: #9b031c;
+
+}
+
+.botao_iniciar:hover, .botao_pausar:hover, .botao_zerar:hover{
+  box-shadow: 5px 20px 30px 5px black;
+
+}
+
